@@ -12,7 +12,7 @@ demos/dataset/*/*.txt
 *.bed
 analysis_script
 requirement.txt
-docs/
+#docs/
 *.gz
 nohup.out
 
