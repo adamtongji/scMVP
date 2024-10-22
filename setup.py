@@ -52,6 +52,7 @@ extras_requirements = {
         "nbsphinx",
         "sphinx_autodoc_typehints",
         "sphinx-rtd-theme",
+        "myst_parser",
     ],
     "test": test_requirements,
 }
@@ -74,7 +75,7 @@ setup(
         "Topic :: Scientific/Engineering :: bioinformatics",
     ],
     description="Single Cell Multi-View Profiler",
-    install_requires=requirements+extras_requirements["notebooks"],
+    install_requires=requirements+extras_requirements["notebooks"]+extras_requirements['docs'],
     license="MIT license",
     # long_description=readme + "\n\n" + history,
     include_package_data=True,
