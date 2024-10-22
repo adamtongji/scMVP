@@ -53,6 +53,7 @@ extras_requirements = {
         "sphinx_autodoc_typehints",
         "sphinx-rtd-theme",
         "myst_parser",
+        "sphinx-automodapi",
     ],
     "test": test_requirements,
 }
